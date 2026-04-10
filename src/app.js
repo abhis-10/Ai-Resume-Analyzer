@@ -1,3 +1,4 @@
+require("dotenv").config();
 const fastify = require("fastify");
 const multipart = require("@fastify/multipart");
 const resumeRoutes = require("./routes/resume.routes");
