@@ -3,7 +3,7 @@ const OpenAI = require("openai");
 
 
 const openai = new OpenAI({
-   apiKey: process.env.OPENAI_API_KEY || "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"
+   apiKey: process.env.OPENAI_API_KEY
 });
 
 const analyzeResume = async(text , userQuery) =>{
